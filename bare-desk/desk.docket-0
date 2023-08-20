@@ -1,0 +1,10 @@
+:~
+  title+'Auth'
+  info+'Authenticate with Urbit'
+  color+0x54.a992
+  version+[0 1 0]
+  website+'https://urbit.org/'
+  license+'MIT'
+  base+'auth'
+  glob-http+['https://m.tinnus-napbus.xyz/pub/auth/glob-0v4.lsn7s.sjvkl.7m1ej.q5k09.6a4rm.glob' 0v4.lsn7s.sjvkl.7m1ej.q5k09.6a4rm]
+==
