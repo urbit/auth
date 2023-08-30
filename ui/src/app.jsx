@@ -23,7 +23,7 @@ class App extends Component {
   reset = async () => {
     window.urbit.reset();
     window.urbit.scry({
-      app: "auth",
+      app: "auth-client",
       path: "/check"
     }).then(
       () => {
@@ -36,7 +36,7 @@ class App extends Component {
 
   subOpen = () => {
     window.urbit.subscribe({
-      app: "auth",
+      app: "auth-client",
       path: "/open",
       event: this.handleUpdate
     })
@@ -78,7 +78,7 @@ class App extends Component {
     const open = this.state.open;
     ent.result = (choice) ? "yes" : "no";
     window.urbit.poke({
-      app: "auth",
+      app: "auth-client",
       mark: "auth-do",
       json: {
         ref: ref,
