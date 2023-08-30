@@ -105,7 +105,7 @@
     %+  strand-fail:strandio  %parsing-failed
     [leaf+"auth thread log:" (flop tang)]
   =+  data=q.data.u.bod.u.res
-  =/  jon=(unit json)  (de-json:html data)
+  =/  jon=(unit json)  (de:json:html data)
   ?~  jon
     =.  tang  [leaf+"Parsing response body failed" tang]
     %+  strand-fail:strandio  %parsing-failed
