@@ -6,5 +6,5 @@
   website+'https://urbit.org/'
   license+'MIT'
   base+'auth'
-  glob-http+['https://m.tinnus-napbus.xyz/pub/auth/glob-0v4.lsn7s.sjvkl.7m1ej.q5k09.6a4rm.glob' 0v4.lsn7s.sjvkl.7m1ej.q5k09.6a4rm]
+  glob-http+['https://m.tinnus-napbus.xyz/pub/globs/auth-v0.1.0.glob' 0vmoq3c.k6vd1.bgual.ti4c5.5tv59]
 ==
