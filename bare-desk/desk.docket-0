@@ -1,10 +1,11 @@
 :~
   title+'Auth'
   info+'Authenticate with Urbit'
-  color+0x54.a992
+  color+0xd7.d7d7
   version+[0 1 0]
   website+'https://urbit.org/'
   license+'MIT'
   base+'auth'
+  image+'https://m.tinnus-napbus.xyz/pub/auth-tile.svg'
   glob-http+['https://m.tinnus-napbus.xyz/pub/globs/auth-v0.1.0.glob' 0vmoq3c.k6vd1.bgual.ti4c5.5tv59]
 ==
